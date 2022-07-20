@@ -18,6 +18,9 @@ export default function Header() {
                     <Link to="/todos" className="main-nav-link">
                         <li className="main-nav-links">todos</li>
                     </Link>
+                    <Link to="/like" className="main-nav-link">
+                        <li className="main-nav-links">Likes</li>
+                    </Link>
                 </ul>
             </div>
         </div>  

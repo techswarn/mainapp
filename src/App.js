@@ -7,6 +7,7 @@ import Home from './Components/Home';
 import Posts from './Components/Posts';
 import Weather from './Components/Weather';
 import Todos from './Components/Todos';
+import Like from './Components/Like/Like'
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
               <Route path="/posts" element={<Posts />} />         
               <Route path="/weather" element={<Weather />}/>     
               <Route path="/todos" element={<Todos />} />
+              <Route path="/like" element={<Like />} />
             </Routes>                   
         </div>
       </div>
