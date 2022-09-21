@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="main">
                     <div className="hero-text-box">
                         <h1 className="heading-primary">
-                            Travel | Food && stays
+                            Travel | Food && stays | adventure
                         </h1>
                         <p className="main-description">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, facilis.
