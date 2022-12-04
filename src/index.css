@@ -113,7 +113,7 @@ body{
   max-width: 120rem;
   padding: 0 8rem;
   margin: 0 auto;
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
 }
 
 
@@ -162,6 +162,13 @@ input{
   border-radius: .5rem;
   border: none;
   cursor: pointer;
+
+ transition: all 1s;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f
 }
 
 .space {
@@ -210,7 +217,7 @@ a {
 
 .section-main {
   padding : 2.6rem 0;
-  height: 70vh;
+  height: 60vh;
 }
 
 .main {
@@ -300,3 +307,190 @@ a {
   
 }
 
+
+/* General classes */
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* .grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+} */ 
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+
+/* fish section */
+
+.section-fish {
+  padding: 4rem 0;
+}
+
+.subheading {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card-fish {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.fish:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.fish-content {
+  padding: 3.2rem 2.8rem 4.8rem 2.8rem;
+}
+
+.fish-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--vegetarian {
+  background-color: #51cf66;
+}
+.tag--vegan {
+  background-color: #94d82d;
+}
+.tag--paleo {
+  background-color: #ffd43b;
+}
+
+.fish-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.fish-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.fish-attribute {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.fish-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
+}
+
+.fish-img {
+  width: 100%;
+}
+
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.6rem 1.6rem;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.6rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: ;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
