@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 
-import Hotel from './Hotel/Hotels';
+import Products from './Products/Products';
+import Footer from './Footer';
 import hero from "./img/hero-main.jpg"
 
 export default function Home() {
@@ -27,7 +28,8 @@ export default function Home() {
                         </div>
                     </div>
             </div>
-            <Hotel/>
+            <Products/>
+            <Footer/>
 
         </Fragment>
 

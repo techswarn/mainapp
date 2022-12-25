@@ -1,0 +1,39 @@
+        <div className="container grid grid--3-cols" >
+        {loading ? ("loading"): (fish.map( fish => (
+          <div className="card-fish" key={fish.id}>
+          <img src={"http://localhost:1337" + fish?.attributes?.img1?.data?.attributes?.url} alt="Sardine fish" className="fish-img" />
+          <div className="fish-content">
+            <div className="fish-tags">
+              <span className="tag tag--vegan"><p>Medium</p></span>
+              <span className="tag tag--paleo">200</span>
+            </div>
+            <p className="fish-title">{fish.attributes.Title}</p>
+            <div className="dropdown">
+              <button className="dropbtn">Size</button>
+                <div className="dropdown-content">
+                  <a href="#">Large</a>
+                  <a href="#">Medium</a>
+                  <a href="#">Small</a>
+                </div>
+            </div>       
+            <ul className="fish-attributes">
+              <li className="fish-attribute">
+                <ion-icon className="fish-icon" name="flame-outline"></ion-icon>
+                <span><strong>400</strong> calories</span>
+              </li>
+              <li className="fish-attribute">
+                <ion-icon
+                  className="fish-icon"
+                  name="restaurant-outline"
+                ></ion-icon>
+                <span>NutriScore &reg; <strong>92</strong></span>
+              </li>
+              <li className="fish-attribute">
+                <ion-icon className="fish-icon" name="star-outline"></ion-icon>
+                <span><strong>4.8</strong> rating (441)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        )))}
+        </div>
