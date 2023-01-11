@@ -76,3 +76,5 @@ AuthGroupFile /dev/null
 AuthName "Secure Document"
 AuthType Basic
 require user johndoe
+
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/techswarn/mainapp/tree/{main})

@@ -15,7 +15,7 @@ export default function Home() {
                             </h1>
                             <p className="main-description">
                                 We get fish directly from the fishing habour or Fishermen, process it 
-                                and delivery to your at the best market price
+                                and delivery to your at the best market price!
                             </p>
                             <a href="#" className="btn btn-action btn--full">
                                 Download App
