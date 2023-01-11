@@ -1,0 +1,7 @@
+spec:
+ name: mainapp
+ services:
+ - name: web
+   git:
+     branch: main
+     repo_clone_url: https://github.com/techswarn/mainapp.git
