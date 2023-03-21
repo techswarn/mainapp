@@ -5,7 +5,7 @@ import Loader from '../uicomps/Loader';
 export default function Products() {
 
   const [size, setSize] = useState() 
-  const {data, loading, error }= useAxios('https://localhost:1337/api/products?populate=*')
+  const {data, loading, error }= useAxios('https://backend-api-gujnx.ondigitalocean.app/api/products?populate=*')
   console.log(data)
   const fish = data?.data
   console.log(fish)
