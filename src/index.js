@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-if (window.location.host.startsWith("www")){
-  window.location = `${window.location.protocol}//${window.location.host}/`;
+if (window.location.hostname.indexOf("www") == 0) {
+  window.location = window.location.href.replace("www.","");
 }
 
 ReactDOM.render(
