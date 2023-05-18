@@ -12,8 +12,8 @@ export default function Header() {
                     <Link to="/posts" className="main-nav-link">
                         <li className="main-nav-links">Fish</li>
                     </Link>
-                    <Link to="/weather" className="main-nav-link">
-                        <li className="main-nav-links">Take Aways</li>
+                    <Link to="/Users" className="main-nav-link">
+                        <li className="main-nav-links">Users</li>
                     </Link> 
                     <Link to="/todos" className="main-nav-link">
                         <li className="main-nav-links">About Us</li>

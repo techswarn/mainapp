@@ -14,7 +14,7 @@ export default function Home() {
                                 Order Fresh fish Exclusively!
                             </h1>
                             <p className="main-description">
-                                We get the fish directly from the fishing habour or Fishermen, process it 
+                                Test We get the fish directly from the fishing habour or Fishermen, process it 
                                 and delivery to your at the best market price!
                             </p>
                             <a href="#" className="btn btn-action btn--full">
