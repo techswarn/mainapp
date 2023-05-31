@@ -10,6 +10,7 @@ export default function Weather() {
             const {data} = await axios.post(baseUrl, {name :value}, {
                 headers: {
                   'Content-Type': 'application/json',
+                  'Access-Control-Allow-Origin': '*',
                   'Authorization': 'Basic ODgzMjRkMGUtOTU3Mi00NjRhLTk4YTgtZTExYTM4YmU3YTQ1Om5nWXk5MnplZzFGelZLT2Y3d2tWMkdNRjUxb0wwMk82OWFBcVUyN0xTSm9jTkVXeURpNnpicW9aejZyV01GMzI='
                 }
             })
