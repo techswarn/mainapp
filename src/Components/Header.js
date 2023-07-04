@@ -9,8 +9,8 @@ export default function Header() {
             </Link>
             <div className="main-nav">
                 <ul className="main-nav-list">
-                    <Link to="/posts" className="main-nav-link">
-                        <li className="main-nav-links">Fish</li>
+                    <Link to="/Upload" className="main-nav-link">
+                        <li className="main-nav-links">Upload</li>
                     </Link>
                     <Link to="/Users" className="main-nav-link">
                         <li className="main-nav-links">Users</li>

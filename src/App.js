@@ -9,6 +9,7 @@ import Users from './Components/Users';
 import Todos from './Components/Todos';
 
 import './App.css';
+import Upload from './Components/Upload';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Header/>
             <Routes>
               <Route path="/" exact element={<Home />} />
-              <Route path="/posts" element={<Posts />} />         
+              <Route path="/upload" element={<Upload />} />         
               <Route path="/users" element={<Users />}/>     
               <Route path="/todos" element={<Todos />} />
             </Routes>                   
